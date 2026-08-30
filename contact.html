@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — INDUSTRIX</title>
+  <meta name="description" content="Get in touch with INDUSTRIX for industrial services, fabrication, maintenance, and machining inquiries. Request a quote or schedule a consultation.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%E2%9A%99%EF%B8%8F</text></svg>">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" role="banner">
+    <div class="container header__inner">
+      <a href="index.html" class="logo" aria-label="INDUSTRIX Home">
+        <span class="logo__mark">I</span>
+        <span class="logo__text">INDUSTRIX</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="about.html" class="nav__link">About</a></li>
+          <li><a href="services.html" class="nav__link">Services</a></li>
+          <li><a href="contact.html" class="nav__link active">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="contact.html" class="btn btn--primary btn--sm nav__cta">Get a Quote</a>
+      <button class="burger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <div class="mobile-nav" role="navigation" aria-label="Mobile navigation">
+    <a href="index.html" class="mobile-nav__link">Home</a>
+    <a href="about.html" class="mobile-nav__link">About</a>
+    <a href="services.html" class="mobile-nav__link">Services</a>
+    <a href="contact.html" class="mobile-nav__link active">Contact</a>
+  </div>
+
+  <!-- ============ CONTACT HERO ============ -->
+  <section class="about-hero" style="background: linear-gradient(135deg, var(--dark) 0%, var(--dark-mid) 100%);">
+    <div class="container">
+      <div class="about-hero__content" style="max-width: 720px;">
+        <div class="section-tag" style="color: var(--orange-light);">Get in Touch</div>
+        <h1 class="about-hero__title reveal">Let's Build <span>Something</span> Together</h1>
+        <p class="about-hero__text reveal reveal--delay-1">
+          Whether you need a custom fabrication, a maintenance program, or precision machining, our team is ready to discuss your project.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT SECTION ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrap reveal">
+          <h2 style="margin-bottom: var(--sp-2);">Send Us a Message</h2>
+          <p style="margin-bottom: var(--sp-8); color: var(--gray-500); font-size: var(--fs-sm);">
+            Fill out the form below and our team will respond within one business day.
+          </p>
+
+          <form data-form="contact">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--sp-6);">
+              <div class="form-group">
+                <label for="fname">First Name *</label>
+                <input type="text" id="fname" name="fname" placeholder="John" required>
+              </div>
+              <div class="form-group">
+                <label for="lname">Last Name *</label>
+                <input type="text" id="lname" name="lname" placeholder="Smith" required>
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--sp-6);">
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="john@company.com" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="company">Company Name</label>
+              <input type="text" id="company" name="company" placeholder="Your Company">
+            </div>
+
+            <div class="form-group">
+              <label for="service">Service of Interest *</label>
+              <select id="service" name="service" required>
+                <option value="">Select a service...</option>
+                <option value="fabrication">Heavy Fabrication</option>
+                <option value="maintenance">Plant Maintenance</option>
+                <option value="machining">Precision Machining</option>
+                <option value="welding">Industrial Welding</option>
+                <option value="other">Other / Custom Project</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Project Details *</label>
+              <textarea id="message" name="message" placeholder="Describe your project, timeline, and any specific requirements..." rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--lg" style="width: 100%; justify-content: center;">
+              Send Message
+            </button>
+
+            <div class="form-ok">
+              &#10003; Thank you! Your message has been sent successfully. Our team will contact you within one business day.
+            </div>
+            <div class="form-err">
+              &#9888; Please fill in all required fields correctly and try again.
+            </div>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info reveal reveal--delay-1">
+          <div class="info-card">
+            <div class="info-card__icon">&#9993;</div>
+            <div>
+              <div class="info-card__title">Email Us</div>
+              <div class="info-card__text">
+                <a href="mailto:info@industrix.com" style="color: var(--orange);">info@industrix.com</a><br>
+                <a href="mailto:quotes@industrix.com" style="color: var(--gray-500);">quotes@industrix.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card__icon">&#9742;</div>
+            <div>
+              <div class="info-card__title">Call Us</div>
+              <div class="info-card__text">
+                Main: <a href="tel:+18005550199" style="color: var(--gray-600);">+1 (800) 555-0199</a><br>
+                Emergency: <a href="tel:+18005550199" style="color: var(--orange);">+1 (800) 555-0199</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card__icon">&#9873;</div>
+            <div>
+              <div class="info-card__title">Visit Us</div>
+              <div class="info-card__text">
+                4200 Industrial Blvd, Suite 300<br>
+                Houston, TX 77001<br>
+                <span style="color: var(--gray-400); font-size: var(--fs-xs);">Mon - Fri: 7:00 AM - 6:00 PM</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card__icon">&#9881;</div>
+            <div>
+              <div class="info-card__title">Emergency Services</div>
+              <div class="info-card__text">
+                24/7 breakdown response available.<br>
+                Call our emergency line for urgent industrial maintenance needs.
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Map Placeholder -->
+      <div class="map-placeholder reveal">
+        <div class="map-placeholder__inner">
+          <div class="map-placeholder__icon">&#9873;</div>
+          <div class="map-placeholder__text">Interactive Map — Houston, TX Headquarters</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta-banner">
+    <div class="container cta-banner__inner reveal">
+      <div>
+        <h2 class="cta-banner__title">Prefer to Talk Directly?</h2>
+        <p class="cta-banner__text">
+          Our engineering consultants are available for phone or video consultations. Schedule a call to discuss your project in detail.
+        </p>
+      </div>
+      <a href="tel:+18005550199" class="btn btn--primary btn--lg">Call +1 (800) 555-0199</a>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <span class="logo__mark">I</span>
+            <span>INDUSTRIX</span>
+          </div>
+          <p class="footer__desc">
+            Engineering excellence in industrial services and manufacturing since 1997. Building the infrastructure that powers progress.
+          </p>
+          <div class="footer__socials">
+            <a href="#" class="footer__social" aria-label="LinkedIn">in</a>
+            <a href="#" class="footer__social" aria-label="Twitter">&#120143;</a>
+            <a href="#" class="footer__social" aria-label="YouTube">&#9654;</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Services</h4>
+          <div class="footer__links">
+            <a href="services.html" class="footer__link">Heavy Fabrication</a>
+            <a href="services.html" class="footer__link">Plant Maintenance</a>
+            <a href="services.html" class="footer__link">Precision Machining</a>
+            <a href="services.html" class="footer__link">Industrial Welding</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Company</h4>
+          <div class="footer__links">
+            <a href="about.html" class="footer__link">About Us</a>
+            <a href="about.html#team" class="footer__link">Our Team</a>
+            <a href="about.html#values" class="footer__link">Values</a>
+            <a href="contact.html" class="footer__link">Careers</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Contact</h4>
+          <div class="footer__links">
+            <a href="contact.html" class="footer__link">info@industrix.com</a>
+            <a href="tel:+18005550199" class="footer__link">+1 (800) 555-0199</a>
+            <span class="footer__link">4200 Industrial Blvd<br>Suite 300<br>Houston, TX 77001</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; <span data-year></span> INDUSTRIX. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
